@@ -3,10 +3,10 @@
 @section('main-section')
     <h2>Our best offers for the last summer days</h2>
 
-    <div class="houses">
+    <div>
         @foreach ($travel_packages as $package)
             {{-- Single house --}}
-            <div class="house">
+            <div>
                 <div>Destination: {{ $package->destination }}</div>
 
                 <div>Number of nights: {{ $package->nights }} </div>

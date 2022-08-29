@@ -9,7 +9,7 @@ class PackageController extends Controller
 {
     public function packages() {
         $travel_packages = PackageModel::all();
-        
+
         $data = [
             'travel_packages' => $travel_packages
         ];

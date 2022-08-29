@@ -13,7 +13,7 @@ class PackagesTableSeeder extends Seeder
      */
     public function run(Faker $faker)
     {    
-        for($i = 1; $i < 10; $i++) {
+        for($i = 1; $i < 6; $i++) {
             // Create a new package
             $new_package = new PackageModel();
 
