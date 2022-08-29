@@ -18,7 +18,7 @@ class CreatePackagesTable extends Migration
             $table->string('destination', 50);
             $table->tinyInteger('nights')->unsigned();
             $table->tinyInteger('breakfast_included')->unsigned()->default(1);
-            $table->decimal('price', 4, 3);
+            $table->float('price', 10, 2)->unsigned();
             $table->timestamps();
         });
     }
